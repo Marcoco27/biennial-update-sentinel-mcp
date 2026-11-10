@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Marcoco27/biennial-update-sentinel",
+  "title": "Biennial Update Sentinel",
+  "description": "US motor carrier MCS-150 biennial update: next deadline, overdue flag, USDOT status.",
+  "version": "0.1.0",
+  "websiteUrl": "https://mcs150.amacunia.fr/",
+  "repository": {
+    "url": "https://github.com/Marcoco27/biennial-update-sentinel-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcs150.amacunia.fr/mcp"
+    }
+  ]
+}
